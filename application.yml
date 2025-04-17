@@ -1,5 +1,9 @@
 eureka:
   instance:
+    metadataMap:
+      user: Abhishek
+      password: Abhishek
+      configPath: /config
     prefer-ip-address: true
     hostname: localhost
   client:
